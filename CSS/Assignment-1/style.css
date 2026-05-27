@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.bg-left {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(251, 197, 11);
+    position: absolute;
+    display: inline-block;
+}
+
+
+#Pokemon-Logo {
+    height: 70px;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.Text {
+    margin-left: 50px;
+    position: relative;
+    top: 15%;
+
+}
+
+#Text1 {
+    margin-bottom: 18px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+#Text2 {
+    font-size: 120px;
+}
+
+#Text3 {
+    margin-top: 20px;
+    width: 417px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#Text4 {
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#Pikachu {
+    height: 75%;
+    width: auto;
+    position: absolute;
+    top: 15%;
+    left: 71%;
+    z-index: 9;
+}
+
+#Poke-ball {
+    margin-left: 10px;
+    position: absolute;
+    bottom: 0px;
+    height: 180px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top
+}
+
+.bg-right {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(250, 231, 180);
+    position: absolute;
+    right: 0px;
+}
+
+.circle-div {
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top: 40%;
+    right: 7%;
+}
+
+.circle {
+    display: inline-block;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 198, 29);
+    margin: 5px;
+}
+
+#circle1 {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    left: -2.5px;
+}
+
+#menu {
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
